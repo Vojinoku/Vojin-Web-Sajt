@@ -1,0 +1,158 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading{
+  font-size: 3.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 1.5;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Title Section */
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+/* NAVBAR */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding:0 0 4.5rem 0;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+/* DOWNLOAD BUTTONS */
+.dugme{
+  margin: 5% 3% 5% 0;
+}
+
+/* TITLE IMAGE */
+.slika-cuka-na-telefonu{
+  width: 60%;
+  transform: rotate(25deg);
+  right: 30%;
+  position: absolute;
+}
+
+/* DRUGI DEO ZA ZADACU */
+#features{
+
+  background-color: white;
+  position: relative;
+}
+.feature-title{
+ font-size: 1.5rem;
+}
+.kolone-sa-ikonicama{
+
+  padding: 4.5%;
+}
+.ikonice-prve{
+  color:#ef8172;
+  margin-bottom: 1rem;
+}
+.ikonice-prve:hover{
+  color: #ff4c68;
+}
+.prvi-paragraf{
+  color:#8f8f8f;
+}
+
+/* SLAJSHOW */
+#testimonials{
+
+  background-color: #ef8172;
+  color: #fff;
+}
+.cuko-drugi{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* PRESS */
+#press{
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+.press-images{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING */
+#pricing{
+  padding: 100px;
+
+}
+.pricing-col{
+  padding: 3% 2%;
+}
+@media (max-width: 1028px){
+#title{
+  text-align: center;
+}
+  .slika-cuka-na-telefonu{
+    position:static;
+    transform: rotate(0);
+  }
+}
+.hdva{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* OVO PRETPOSLEDNJE */
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+}
+ .futr{
+   font-size: 3.5rem;
+ }
+
+ /* POSLEDNJI */
+#footer{
+  background-color: #fff;
+}
+.fut{
+  padding: 2% 1%;
+}
